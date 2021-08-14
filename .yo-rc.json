@@ -1,0 +1,31 @@
+{
+  "generator-ngx-rocket": {
+    "version": "10.0.0",
+    "props": {
+      "location": "path",
+      "strict": true,
+      "skipInstall": false,
+      "skipQuickstart": false,
+      "initGit": true,
+      "usePrefix": true,
+      "appName": "Ticket System",
+      "target": ["web", "cordova", "electron"],
+      "mobile": ["ios", "android"],
+      "desktop": ["windows", "mac", "linux"],
+      "ui": "ionic",
+      "layout": "side-menu",
+      "features": ["pwa", "auth", "lazy", "e2e"],
+      "languages": ["de-DE", "en-US", "es-ES", "fr-FR", "it-IT", "pt-BR", "zh-CN"],
+      "tools": ["prettier", "hads"],
+      "utility": ["lodash"],
+      "deploy": "none",
+      "projectName": "ticket-system",
+      "packageManager": "npm",
+      "pwa": true,
+      "auth": true,
+      "lazy": true,
+      "e2e": true,
+      "angulartics": false
+    }
+  }
+}
